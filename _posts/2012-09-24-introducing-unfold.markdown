@@ -74,7 +74,7 @@ This will create a folder called `deployment`, containing two files
 ## 2. The `deploy.ps1` file
 Let's have a look at a slightly modified `deploy.ps1` file:
 
-``` posh deploy.ps1
+``` posh
 # Configuration
 Set-Config project "YourProjectName"
 
