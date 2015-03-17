@@ -1,0 +1,28 @@
+# Site settings
+title: thomasvm
+# email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  .net developer, mostly MVC and Xamarin, continously keeping
+  an eye on the next level and non-.net technology. Just in case.
+author:
+  name:                 'Thomas Van Machelen'
+  url:                  https://twitter.com/thomasvm
+github:
+  repo:                 https://github.com/thomasvm
+disqus:
+  shortname:            thomasvmgithub
+paginate:               2
+baseurl:                "/" # the subpath of your site, e.g. /blog/
+url:                    "http://thomasvm.github.io/" # the base hostname & protocol for your site
+twitter_username:       thomasvm
+github_username:        thomasvm
+highlighter:            rouge
+markdown:               redcarpet
+
+# Permalinks
+permalink:              /blog/:year/:month/:day/:title/
+relative_permalinks:    true
+
+# Custom vars
+version:                1.0.1
+
