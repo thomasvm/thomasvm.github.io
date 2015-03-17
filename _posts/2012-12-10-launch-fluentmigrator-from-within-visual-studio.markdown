@@ -42,7 +42,7 @@ tool will become easier. This involves *4 steps*:
    the `Migrate.exe` and the  `FluentMigrator.Runner.dll` that are somewhere inside the FluentMigrator.Tools folder. Make sure
    you select _Add as link_ and pick the `AnyCPU` version. 
    
-   {% img /images/blog/fluentmigrator-add-migrate-fixed.png %}
+   ![fixed]({{ site.url }}/images/blog/fluentmigrator-add-migrate-fixed.png)
    
    Alternatively, you can manually download or compile the exe and dll from source and add 
    them to your source control.
@@ -54,7 +54,7 @@ tool will become easier. This involves *4 steps*:
 3. Open up the properties for the `Migrate.exe` and `FluentMigrator.Runner.dll` items in your Visual Studio project, and
    set it to _Copy to output directory_: _Copy always_
 
-   {% img /images/blog/fluentmigrator-migrate-properties.png %}
+   ![props]({{ site.url }}/images/blog/fluentmigrator-migrate-properties.png)
 
 5. Add the connection string for your development machine to the `app.config` of the
    migrations assembly. As the _name_ simply use your machine name. By doing so,
@@ -76,7 +76,7 @@ up the external tools manager and create a new tool. Give it the following value
 * **Initial Directory**: `$(BinDir)`
 * Use output window: click checkbox
 
-   {% img /images/blog/fluentmigrator-custom-tool.png %}
+   ![props]({{ site.url }}/images/blog/fluentmigrator-custom-tool.png)
 
 You will probably receive a warning that the "Command is not a valid executable". This
 is caused by the `$(BinDir)` variable that is used in the Command property, but don't

@@ -39,7 +39,7 @@ There are several things I love about Hangfire:
 * The built-in dashboard is beautiful, clear and gives a good view of what is happening and -
   maybe more important - what is going wrong. 
  
-  {% img http://hangfire.io/img/dashboard.png %} 
+  ![dashboard](http://hangfire.io/img/dashboard.png)
 
 * There are no requirements on the method that is to be executed in the background. No class to
   inherit from, no attributes have to added to it, it just needs to be a public method. This 

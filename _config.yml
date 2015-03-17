@@ -26,3 +26,5 @@ relative_permalinks:    true
 # Custom vars
 version:                1.0.1
 
+safe: true
+lsi: false

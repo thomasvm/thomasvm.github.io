@@ -23,7 +23,7 @@ command in a PowerShell:
 The `listremoteversions` task does nothing special, it just checks which _releases_ are available on the deployment target and
 prints them in PowerShell the console. The output looks like this
 
-{% img /images/blog/listremoteversions.png %} 
+![remoteversions]({{ site.url }}/images/blog/listremoteversions.png)
 
 These releases are what is available on the deployment target. The first part of the folder name is the timestamp of deployment,
 the second part is the short hash of the revision is what deployed from. The number that are in front of the folder names 

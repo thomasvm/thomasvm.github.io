@@ -104,7 +104,7 @@ Set-Config buildConfiguration "Release"
 
   After you have executed multiple deployments, the `$config.baseFolder` will look like this.
  
-  {% img /images/blog/releaselayout.png %} 
+  ![layout]({{ site.url }}/images/blog/releaselayout.png)
 
   What you see are:
   1. Five releases, each contains a web subfolder, and possibly others

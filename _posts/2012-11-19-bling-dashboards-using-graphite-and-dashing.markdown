@@ -21,7 +21,7 @@ It's intended to create beautiful dashboards quicly and easily. If you take a lo
 [example application](http://dashingdemo.herokuapp.com/sample), you'll immediately see what they mean. The dashboard is lively 
 and looks a _lot_ better than the default graphite graphs.
 
-{% img /images/blog/dashingdefault.png %}
+![default]({{ site.url}}/images/blog/dashingdefault.png)
 
 Check [this page](http://shopify.github.com/dashing/#setup) for installing dashing on your system and creating a new
 dashboard project. Now that you have dashboard project we can start modifying it in order to access your graphite backend.
