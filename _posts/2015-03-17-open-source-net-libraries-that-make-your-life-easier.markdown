@@ -63,7 +63,7 @@ There are several things I love about Hangfire:
 Shortly after the Razor View Engine came out for ASP.net, [Andrew Davey][5] had the excellent idea to
 start using it to do Email templating: [Postal][6] was born. The idea is simple, your `Views` folder gets
 an extra subdirectory called `Emails` where you put in all your Razor Email templates and everything Razor
-has to offer comes for free: Layouts, strongly-typed Models if you want, Url-helpers, partials, etc. Sending 
+has to offer comes for free: Layouts, strongly-typed models, Url-helpers, partials, etc. Sending 
 an e-mail is as simple as
 
 ``` csharp
@@ -91,7 +91,7 @@ Check out this: @ViewBag.FunnyLink
 Of course you can use strongly-typed Models if you want to. 
 
 It respects `Web.config`'s smtp settings and hence works perfectly with services like [Mandrill][7] or [Postmark][8], has
-some nice features like image inlining, and it is built to integrate perfectly any MVC version. Good stuff!
+some nice features like image inlining, and it is built to integrate perfectly with any MVC version. Good stuff!
 
 ## Formo
 
