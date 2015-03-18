@@ -45,9 +45,9 @@ There are several things I love about Hangfire:
   inherit from, no attributes have to added to it, it just needs to be a public method. This 
   allows you to structure your background jobs as you see fit. 
 
-* While It Just Works when you add it to an ASP.net application, you're not restricted to it
+* While It Just Works when you add it to an ASP.net application, you're not restricted to it.
   You can schedule and process the jobs basically anywhere: Windows Services, Console Applications, 
-  Azure Web works, .... If you include this in your application, you know that you will be able 
+  Azure Web workers, .... If you include this in your application, you know that you will be able 
   to take your code and split it into different components if needed. And Hangfire will still 
   be able to do the processing. 
 
