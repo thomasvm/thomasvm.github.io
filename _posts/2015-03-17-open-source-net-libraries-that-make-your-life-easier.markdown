@@ -145,7 +145,7 @@ a certain POCO class. You can then use a `CsvReader` to convert each row into an
 have to think about all the nitty gritty details that can occur when you need to read CSV files. These class maps provide a lot
 of configuration options and I have yet to encounter a situation that CsvHelper cannot handle. 
 
-## TopShelf
+## Topshelf
 
 Writing a Windows Service is a lot harder than it should be. The logic itself is the easy part, but writing and configuring the part
 that creates the service on the system is just a mess. If you follow the Visual Studio Way of doing things, this mess involves
@@ -159,9 +159,9 @@ that creates the service on the system is just a mess. If you follow the Visual 
 * ...
 
 You get the gist, it is overly complex and involves too much automatically generated code and magic strings. Compare this to the beauty
-of a [TopShelf][13] service.
+of a [Topshelf][13] service.
 
-* First you create a console app and add TopShelf through NuGet
+* First you create a console app and add Topshelf through NuGet
 * Then, you create _a class_ that holds your service logic. The only important thing is that the class must have some kind of `Start`
   and `Stop` method
 * and finally the main method of the `Program.cs` should look something like this
