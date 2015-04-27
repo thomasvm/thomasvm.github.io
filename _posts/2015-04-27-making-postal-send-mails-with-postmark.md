@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making Postal send mails with Postmark"
-date: 2015-03-24 20:21
+date: 2015-04-27 20:21
 comments: true
 categories: [ ".net", "oss", "open source", "email" ]
 ---
