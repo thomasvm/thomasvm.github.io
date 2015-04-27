@@ -1,0 +1,9 @@
+.sidebar-nav-item.social {
+   display: inline;
+   font-size: 1.5em;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-nav-item.social:hover {
+   color: white;
+}
